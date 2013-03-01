@@ -2,6 +2,9 @@ testcase/input
 testcase/crash
 stp
 session
+fault_detection/notify_crash
+fault_detection/ptrace
+stp.tar.gz
 
 *.py[cod]
 
