@@ -1,0 +1,41 @@
+exp_sgcheck_x86_linux-pc_main.o exp_sgcheck_x86_linux-pc_main.o:  \
+ pc_main.c ../include/pub_tool_basics.h ../VEX/pub/libvex_basictypes.h \
+  /usr/local/lib/gcc/i686-pc-linux-gnu/3.4.6/include/stdarg.h \
+  ../include/pub_tool_libcassert.h ../include/pub_tool_libcprint.h \
+  ../include/pub_tool_execontext.h ../include/pub_tool_tooliface.h \
+  ../include/pub_tool_errormgr.h ../include/pub_tool_execontext.h \
+  ../VEX/pub/libvex.h ../VEX/pub/libvex_basictypes.h \
+  ../VEX/pub/libvex_ir.h ../include/pub_tool_options.h sg_main.h \
+  pc_common.h h_main.h
+
+../include/pub_tool_basics.h:
+
+../VEX/pub/libvex_basictypes.h:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/3.4.6/include/stdarg.h:
+
+../include/pub_tool_libcassert.h:
+
+../include/pub_tool_libcprint.h:
+
+../include/pub_tool_execontext.h:
+
+../include/pub_tool_tooliface.h:
+
+../include/pub_tool_errormgr.h:
+
+../include/pub_tool_execontext.h:
+
+../VEX/pub/libvex.h:
+
+../VEX/pub/libvex_basictypes.h:
+
+../VEX/pub/libvex_ir.h:
+
+../include/pub_tool_options.h:
+
+sg_main.h:
+
+pc_common.h:
+
+h_main.h:

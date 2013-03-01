@@ -1,0 +1,176 @@
+libcoregrind_x86_linux_a-valgrind-low-arm.o \
+  libcoregrind_x86_linux_a-valgrind-low-arm.o:  \
+ m_gdbserver/valgrind-low-arm.c m_gdbserver/server.h ./pub_core_basics.h \
+  ../include/pub_tool_basics.h ../VEX/pub/libvex_basictypes.h \
+  /usr/local/lib/gcc/i686-pc-linux-gnu/3.4.6/include/stdarg.h \
+  ../VEX/pub/libvex.h ../VEX/pub/libvex_basictypes.h \
+  ../VEX/pub/libvex_ir.h ../VEX/pub/libvex_guest_x86.h \
+  ../VEX/pub/libvex_emwarn.h ./pub_core_vki.h ../include/pub_tool_vki.h \
+  ../include/vki/vki-linux.h ../include/vki/vki-posixtypes-x86-linux.h \
+  ../include/vki/vki-x86-linux.h ./pub_core_xarray.h \
+  ../include/pub_tool_xarray.h ./pub_core_clientstate.h \
+  ../include/pub_tool_clientstate.h ./pub_core_debuglog.h \
+  ./pub_core_errormgr.h ../include/pub_tool_errormgr.h \
+  ../include/pub_tool_execontext.h ./pub_core_libcassert.h \
+  ../include/pub_tool_libcassert.h ./pub_core_libcfile.h \
+  ../include/pub_tool_libcfile.h ./pub_core_libcprint.h \
+  ../include/pub_tool_libcprint.h ./pub_core_mallocfree.h \
+  ../include/pub_tool_mallocfree.h ./pub_core_syscall.h \
+  ../include/pub_tool_libcproc.h ./pub_core_tooliface.h \
+  ../include/pub_tool_tooliface.h ../include/pub_tool_errormgr.h \
+  ../VEX/pub/libvex.h ../include/pub_tool_libcassert.h \
+  ../include/pub_tool_libcbase.h ../include/pub_tool_options.h \
+  ./pub_core_gdbserver.h ../include/pub_tool_gdbserver.h \
+  ../VEX/pub/libvex_ir.h ../include/pub_tool_libcsetjmp.h \
+  /usr/include/setjmp.h /usr/include/features.h \
+  /usr/include/bits/predefs.h /usr/include/sys/cdefs.h \
+  /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+  /usr/include/gnu/stubs-32.h /usr/include/bits/setjmp.h \
+  /usr/include/bits/sigset.h ./pub_core_threadstate.h \
+  ../include/pub_tool_threadstate.h ./pub_core_aspacemgr.h \
+  ../include/pub_tool_aspacemgr.h ../include/pub_tool_vki.h \
+  ../include/valgrind.h m_gdbserver/regcache.h m_gdbserver/gdb/signals.h \
+  m_gdbserver/target.h m_gdbserver/regdef.h ../include/pub_tool_machine.h \
+  ./pub_core_transtab.h ./pub_core_transtab_asm.h ./pub_core_debuginfo.h \
+  ../include/pub_tool_debuginfo.h m_gdbserver/valgrind_low.h \
+  ../VEX/pub/libvex_guest_arm.h
+
+m_gdbserver/server.h:
+
+./pub_core_basics.h:
+
+../include/pub_tool_basics.h:
+
+../VEX/pub/libvex_basictypes.h:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/3.4.6/include/stdarg.h:
+
+../VEX/pub/libvex.h:
+
+../VEX/pub/libvex_basictypes.h:
+
+../VEX/pub/libvex_ir.h:
+
+../VEX/pub/libvex_guest_x86.h:
+
+../VEX/pub/libvex_emwarn.h:
+
+./pub_core_vki.h:
+
+../include/pub_tool_vki.h:
+
+../include/vki/vki-linux.h:
+
+../include/vki/vki-posixtypes-x86-linux.h:
+
+../include/vki/vki-x86-linux.h:
+
+./pub_core_xarray.h:
+
+../include/pub_tool_xarray.h:
+
+./pub_core_clientstate.h:
+
+../include/pub_tool_clientstate.h:
+
+./pub_core_debuglog.h:
+
+./pub_core_errormgr.h:
+
+../include/pub_tool_errormgr.h:
+
+../include/pub_tool_execontext.h:
+
+./pub_core_libcassert.h:
+
+../include/pub_tool_libcassert.h:
+
+./pub_core_libcfile.h:
+
+../include/pub_tool_libcfile.h:
+
+./pub_core_libcprint.h:
+
+../include/pub_tool_libcprint.h:
+
+./pub_core_mallocfree.h:
+
+../include/pub_tool_mallocfree.h:
+
+./pub_core_syscall.h:
+
+../include/pub_tool_libcproc.h:
+
+./pub_core_tooliface.h:
+
+../include/pub_tool_tooliface.h:
+
+../include/pub_tool_errormgr.h:
+
+../VEX/pub/libvex.h:
+
+../include/pub_tool_libcassert.h:
+
+../include/pub_tool_libcbase.h:
+
+../include/pub_tool_options.h:
+
+./pub_core_gdbserver.h:
+
+../include/pub_tool_gdbserver.h:
+
+../VEX/pub/libvex_ir.h:
+
+../include/pub_tool_libcsetjmp.h:
+
+/usr/include/setjmp.h:
+
+/usr/include/features.h:
+
+/usr/include/bits/predefs.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-32.h:
+
+/usr/include/bits/setjmp.h:
+
+/usr/include/bits/sigset.h:
+
+./pub_core_threadstate.h:
+
+../include/pub_tool_threadstate.h:
+
+./pub_core_aspacemgr.h:
+
+../include/pub_tool_aspacemgr.h:
+
+../include/pub_tool_vki.h:
+
+../include/valgrind.h:
+
+m_gdbserver/regcache.h:
+
+m_gdbserver/gdb/signals.h:
+
+m_gdbserver/target.h:
+
+m_gdbserver/regdef.h:
+
+../include/pub_tool_machine.h:
+
+./pub_core_transtab.h:
+
+./pub_core_transtab_asm.h:
+
+./pub_core_debuginfo.h:
+
+../include/pub_tool_debuginfo.h:
+
+m_gdbserver/valgrind_low.h:
+
+../VEX/pub/libvex_guest_arm.h:

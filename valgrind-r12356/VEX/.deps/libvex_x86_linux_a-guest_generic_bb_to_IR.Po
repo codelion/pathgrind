@@ -1,0 +1,22 @@
+libvex_x86_linux_a-guest_generic_bb_to_IR.o \
+  libvex_x86_linux_a-guest_generic_bb_to_IR.o:  \
+ priv/guest_generic_bb_to_IR.c ../VEX/pub/libvex_basictypes.h \
+  ../VEX/pub/libvex_ir.h ../VEX/pub/libvex_basictypes.h \
+  ../VEX/pub/libvex.h ../VEX/pub/libvex_ir.h priv/main_util.h \
+  priv/main_globals.h priv/guest_generic_bb_to_IR.h
+
+../VEX/pub/libvex_basictypes.h:
+
+../VEX/pub/libvex_ir.h:
+
+../VEX/pub/libvex_basictypes.h:
+
+../VEX/pub/libvex.h:
+
+../VEX/pub/libvex_ir.h:
+
+priv/main_util.h:
+
+priv/main_globals.h:
+
+priv/guest_generic_bb_to_IR.h:

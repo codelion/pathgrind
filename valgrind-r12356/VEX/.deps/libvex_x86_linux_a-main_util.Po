@@ -1,0 +1,19 @@
+libvex_x86_linux_a-main_util.o libvex_x86_linux_a-main_util.o:  \
+ priv/main_util.c ../VEX/pub/libvex_basictypes.h ../VEX/pub/libvex.h \
+  ../VEX/pub/libvex_basictypes.h ../VEX/pub/libvex_ir.h \
+  priv/main_globals.h priv/main_util.h \
+  /usr/local/lib/gcc/i686-pc-linux-gnu/3.4.6/include/stdarg.h
+
+../VEX/pub/libvex_basictypes.h:
+
+../VEX/pub/libvex.h:
+
+../VEX/pub/libvex_basictypes.h:
+
+../VEX/pub/libvex_ir.h:
+
+priv/main_globals.h:
+
+priv/main_util.h:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/3.4.6/include/stdarg.h:

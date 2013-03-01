@@ -1,0 +1,3 @@
+libcoregrind_x86_linux_a-dispatch-ppc64-linux.o \
+  libcoregrind_x86_linux_a-dispatch-ppc64-linux.o:  \
+ m_dispatch/dispatch-ppc64-linux.S

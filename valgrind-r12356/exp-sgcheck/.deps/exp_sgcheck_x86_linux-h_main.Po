@@ -1,0 +1,86 @@
+exp_sgcheck_x86_linux-h_main.o exp_sgcheck_x86_linux-h_main.o: h_main.c \
+  ../include/pub_tool_basics.h ../VEX/pub/libvex_basictypes.h \
+  /usr/local/lib/gcc/i686-pc-linux-gnu/3.4.6/include/stdarg.h \
+  ../include/pub_tool_libcbase.h ../include/pub_tool_libcprint.h \
+  ../include/pub_tool_libcassert.h ../include/pub_tool_mallocfree.h \
+  ../include/pub_tool_execontext.h ../include/pub_tool_hashtable.h \
+  ../include/pub_tool_tooliface.h ../include/pub_tool_errormgr.h \
+  ../include/pub_tool_execontext.h ../VEX/pub/libvex.h \
+  ../VEX/pub/libvex_basictypes.h ../VEX/pub/libvex_ir.h \
+  ../include/pub_tool_replacemalloc.h ../include/pub_tool_options.h \
+  ../include/pub_tool_aspacemgr.h ../include/pub_tool_vki.h \
+  ../include/vki/vki-linux.h ../include/vki/vki-posixtypes-x86-linux.h \
+  ../include/vki/vki-x86-linux.h ../include/pub_tool_machine.h \
+  ../include/pub_tool_debuginfo.h ../include/pub_tool_threadstate.h \
+  ../include/pub_tool_oset.h ../include/pub_tool_vkiscnums.h \
+  ../include/pub_tool_vkiscnums_asm.h \
+  ../include/vki/vki-scnums-x86-linux.h ../include/pub_tool_wordfm.h \
+  ../include/pub_tool_xarray.h pc_common.h h_main.h sg_main.h
+
+../include/pub_tool_basics.h:
+
+../VEX/pub/libvex_basictypes.h:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/3.4.6/include/stdarg.h:
+
+../include/pub_tool_libcbase.h:
+
+../include/pub_tool_libcprint.h:
+
+../include/pub_tool_libcassert.h:
+
+../include/pub_tool_mallocfree.h:
+
+../include/pub_tool_execontext.h:
+
+../include/pub_tool_hashtable.h:
+
+../include/pub_tool_tooliface.h:
+
+../include/pub_tool_errormgr.h:
+
+../include/pub_tool_execontext.h:
+
+../VEX/pub/libvex.h:
+
+../VEX/pub/libvex_basictypes.h:
+
+../VEX/pub/libvex_ir.h:
+
+../include/pub_tool_replacemalloc.h:
+
+../include/pub_tool_options.h:
+
+../include/pub_tool_aspacemgr.h:
+
+../include/pub_tool_vki.h:
+
+../include/vki/vki-linux.h:
+
+../include/vki/vki-posixtypes-x86-linux.h:
+
+../include/vki/vki-x86-linux.h:
+
+../include/pub_tool_machine.h:
+
+../include/pub_tool_debuginfo.h:
+
+../include/pub_tool_threadstate.h:
+
+../include/pub_tool_oset.h:
+
+../include/pub_tool_vkiscnums.h:
+
+../include/pub_tool_vkiscnums_asm.h:
+
+../include/vki/vki-scnums-x86-linux.h:
+
+../include/pub_tool_wordfm.h:
+
+../include/pub_tool_xarray.h:
+
+pc_common.h:
+
+h_main.h:
+
+sg_main.h:

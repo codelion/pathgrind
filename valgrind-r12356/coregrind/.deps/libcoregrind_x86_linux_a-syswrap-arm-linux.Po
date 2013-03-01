@@ -1,0 +1,3 @@
+libcoregrind_x86_linux_a-syswrap-arm-linux.o \
+  libcoregrind_x86_linux_a-syswrap-arm-linux.o:  \
+ m_syswrap/syswrap-arm-linux.c

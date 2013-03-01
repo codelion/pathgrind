@@ -1,0 +1,16 @@
+prefix=/home/asankhaya/pathgrind/valgrind-r12356/build
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include/valgrind
+arch=x86
+os=linux
+platform=x86-linux
+valt_load_address=@VALT_LOAD_ADDRESS@
+
+Name: Valgrind
+Description: A dynamic binary instrumentation framework
+Version: 3.8.0.SVN
+Requires:
+Libs: -L${libdir}/valgrind -lcoregrind-x86-linux -lvex-x86-linux -lgcc
+Cflags: -I${includedir}
+

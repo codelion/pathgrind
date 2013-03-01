@@ -1,0 +1,3 @@
+libcoregrind_x86_linux_a-syswrap-s390x-linux.o \
+  libcoregrind_x86_linux_a-syswrap-s390x-linux.o:  \
+ m_syswrap/syswrap-s390x-linux.c

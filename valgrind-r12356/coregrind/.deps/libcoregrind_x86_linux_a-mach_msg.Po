@@ -1,0 +1,2 @@
+libcoregrind_x86_linux_a-mach_msg.o libcoregrind_x86_linux_a-mach_msg.o:  \
+ m_mach/mach_msg.c

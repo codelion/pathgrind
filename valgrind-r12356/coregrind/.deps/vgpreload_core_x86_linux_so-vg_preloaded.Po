@@ -1,0 +1,45 @@
+vgpreload_core_x86_linux_so-vg_preloaded.o \
+  vgpreload_core_x86_linux_so-vg_preloaded.o: vg_preloaded.c \
+  pub_core_basics.h ../include/pub_tool_basics.h \
+  ../VEX/pub/libvex_basictypes.h \
+  /usr/local/lib/gcc/i686-pc-linux-gnu/3.4.6/include/stdarg.h \
+  ../VEX/pub/libvex.h ../VEX/pub/libvex_basictypes.h \
+  ../VEX/pub/libvex_ir.h ../VEX/pub/libvex_guest_x86.h \
+  ../VEX/pub/libvex_emwarn.h pub_core_clreq.h ../include/pub_tool_clreq.h \
+  ../include/valgrind.h pub_core_debuginfo.h \
+  ../include/pub_tool_debuginfo.h pub_core_redir.h \
+  ../include/pub_tool_redir.h ../config.h
+
+pub_core_basics.h:
+
+../include/pub_tool_basics.h:
+
+../VEX/pub/libvex_basictypes.h:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/3.4.6/include/stdarg.h:
+
+../VEX/pub/libvex.h:
+
+../VEX/pub/libvex_basictypes.h:
+
+../VEX/pub/libvex_ir.h:
+
+../VEX/pub/libvex_guest_x86.h:
+
+../VEX/pub/libvex_emwarn.h:
+
+pub_core_clreq.h:
+
+../include/pub_tool_clreq.h:
+
+../include/valgrind.h:
+
+pub_core_debuginfo.h:
+
+../include/pub_tool_debuginfo.h:
+
+pub_core_redir.h:
+
+../include/pub_tool_redir.h:
+
+../config.h:

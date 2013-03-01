@@ -1,0 +1,3 @@
+libcoregrind_x86_linux_a-sigframe-x86-darwin.o \
+  libcoregrind_x86_linux_a-sigframe-x86-darwin.o:  \
+ m_sigframe/sigframe-x86-darwin.c

@@ -1,0 +1,48 @@
+libcoregrind_x86_linux_a-m_clientstate.o \
+  libcoregrind_x86_linux_a-m_clientstate.o: m_clientstate.c \
+  pub_core_basics.h ../include/pub_tool_basics.h \
+  ../VEX/pub/libvex_basictypes.h \
+  /usr/local/lib/gcc/i686-pc-linux-gnu/3.4.6/include/stdarg.h \
+  ../VEX/pub/libvex.h ../VEX/pub/libvex_basictypes.h \
+  ../VEX/pub/libvex_ir.h ../VEX/pub/libvex_guest_x86.h \
+  ../VEX/pub/libvex_emwarn.h pub_core_vki.h ../include/pub_tool_vki.h \
+  ../include/vki/vki-linux.h ../include/vki/vki-posixtypes-x86-linux.h \
+  ../include/vki/vki-x86-linux.h pub_core_xarray.h \
+  ../include/pub_tool_xarray.h pub_core_clientstate.h \
+  ../include/pub_tool_clientstate.h
+
+pub_core_basics.h:
+
+../include/pub_tool_basics.h:
+
+../VEX/pub/libvex_basictypes.h:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/3.4.6/include/stdarg.h:
+
+../VEX/pub/libvex.h:
+
+../VEX/pub/libvex_basictypes.h:
+
+../VEX/pub/libvex_ir.h:
+
+../VEX/pub/libvex_guest_x86.h:
+
+../VEX/pub/libvex_emwarn.h:
+
+pub_core_vki.h:
+
+../include/pub_tool_vki.h:
+
+../include/vki/vki-linux.h:
+
+../include/vki/vki-posixtypes-x86-linux.h:
+
+../include/vki/vki-x86-linux.h:
+
+pub_core_xarray.h:
+
+../include/pub_tool_xarray.h:
+
+pub_core_clientstate.h:
+
+../include/pub_tool_clientstate.h:

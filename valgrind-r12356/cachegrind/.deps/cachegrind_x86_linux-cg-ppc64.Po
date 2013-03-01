@@ -1,0 +1,2 @@
+cachegrind_x86_linux-cg-ppc64.o cachegrind_x86_linux-cg-ppc64.o:  \
+ cg-ppc64.c

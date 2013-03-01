@@ -1,0 +1,117 @@
+libcoregrind_x86_linux_a-m_redir.o libcoregrind_x86_linux_a-m_redir.o:  \
+ m_redir.c pub_core_basics.h ../include/pub_tool_basics.h \
+  ../VEX/pub/libvex_basictypes.h \
+  /usr/local/lib/gcc/i686-pc-linux-gnu/3.4.6/include/stdarg.h \
+  ../VEX/pub/libvex.h ../VEX/pub/libvex_basictypes.h \
+  ../VEX/pub/libvex_ir.h ../VEX/pub/libvex_guest_x86.h \
+  ../VEX/pub/libvex_emwarn.h pub_core_debuglog.h pub_core_debuginfo.h \
+  ../include/pub_tool_debuginfo.h pub_core_libcbase.h \
+  ../include/pub_tool_libcbase.h pub_core_libcassert.h \
+  ../include/pub_tool_libcassert.h pub_core_libcprint.h \
+  ../include/pub_tool_libcprint.h pub_core_seqmatch.h \
+  ../include/pub_tool_seqmatch.h pub_core_mallocfree.h \
+  ../include/pub_tool_mallocfree.h pub_core_options.h \
+  ../include/pub_tool_options.h ../VEX/pub/libvex.h pub_core_oset.h \
+  ../include/pub_tool_oset.h pub_core_redir.h ../include/pub_tool_redir.h \
+  ../config.h pub_core_trampoline.h pub_core_transtab.h \
+  pub_core_transtab_asm.h pub_core_tooliface.h \
+  ../include/pub_tool_tooliface.h ../include/pub_tool_errormgr.h \
+  ../include/pub_tool_execontext.h pub_core_machine.h \
+  ../include/pub_tool_machine.h pub_core_aspacemgr.h \
+  ../include/pub_tool_aspacemgr.h pub_core_xarray.h \
+  ../include/pub_tool_xarray.h pub_core_clientstate.h \
+  ../include/pub_tool_clientstate.h pub_core_demangle.h ../config.h
+
+pub_core_basics.h:
+
+../include/pub_tool_basics.h:
+
+../VEX/pub/libvex_basictypes.h:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/3.4.6/include/stdarg.h:
+
+../VEX/pub/libvex.h:
+
+../VEX/pub/libvex_basictypes.h:
+
+../VEX/pub/libvex_ir.h:
+
+../VEX/pub/libvex_guest_x86.h:
+
+../VEX/pub/libvex_emwarn.h:
+
+pub_core_debuglog.h:
+
+pub_core_debuginfo.h:
+
+../include/pub_tool_debuginfo.h:
+
+pub_core_libcbase.h:
+
+../include/pub_tool_libcbase.h:
+
+pub_core_libcassert.h:
+
+../include/pub_tool_libcassert.h:
+
+pub_core_libcprint.h:
+
+../include/pub_tool_libcprint.h:
+
+pub_core_seqmatch.h:
+
+../include/pub_tool_seqmatch.h:
+
+pub_core_mallocfree.h:
+
+../include/pub_tool_mallocfree.h:
+
+pub_core_options.h:
+
+../include/pub_tool_options.h:
+
+../VEX/pub/libvex.h:
+
+pub_core_oset.h:
+
+../include/pub_tool_oset.h:
+
+pub_core_redir.h:
+
+../include/pub_tool_redir.h:
+
+../config.h:
+
+pub_core_trampoline.h:
+
+pub_core_transtab.h:
+
+pub_core_transtab_asm.h:
+
+pub_core_tooliface.h:
+
+../include/pub_tool_tooliface.h:
+
+../include/pub_tool_errormgr.h:
+
+../include/pub_tool_execontext.h:
+
+pub_core_machine.h:
+
+../include/pub_tool_machine.h:
+
+pub_core_aspacemgr.h:
+
+../include/pub_tool_aspacemgr.h:
+
+pub_core_xarray.h:
+
+../include/pub_tool_xarray.h:
+
+pub_core_clientstate.h:
+
+../include/pub_tool_clientstate.h:
+
+pub_core_demangle.h:
+
+../config.h:

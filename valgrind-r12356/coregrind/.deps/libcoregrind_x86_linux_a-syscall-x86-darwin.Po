@@ -1,0 +1,3 @@
+libcoregrind_x86_linux_a-syscall-x86-darwin.o \
+  libcoregrind_x86_linux_a-syscall-x86-darwin.o:  \
+ m_syswrap/syscall-x86-darwin.S

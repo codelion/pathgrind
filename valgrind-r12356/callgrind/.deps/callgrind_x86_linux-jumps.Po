@@ -1,0 +1,69 @@
+callgrind_x86_linux-jumps.o callgrind_x86_linux-jumps.o: jumps.c global.h \
+  ../include/pub_tool_basics.h ../VEX/pub/libvex_basictypes.h \
+  /usr/local/lib/gcc/i686-pc-linux-gnu/3.4.6/include/stdarg.h \
+  ../include/pub_tool_vki.h ../include/vki/vki-linux.h \
+  ../include/vki/vki-posixtypes-x86-linux.h \
+  ../include/vki/vki-x86-linux.h ../include/pub_tool_debuginfo.h \
+  ../include/pub_tool_libcbase.h ../include/pub_tool_libcassert.h \
+  ../include/pub_tool_libcfile.h ../include/pub_tool_libcprint.h \
+  ../include/pub_tool_libcproc.h ../include/pub_tool_machine.h \
+  ../include/pub_tool_mallocfree.h ../include/pub_tool_options.h \
+  ../VEX/pub/libvex.h ../VEX/pub/libvex_basictypes.h \
+  ../VEX/pub/libvex_ir.h ../include/pub_tool_tooliface.h \
+  ../include/pub_tool_errormgr.h ../include/pub_tool_execontext.h \
+  ../include/pub_tool_xarray.h ../include/pub_tool_clientstate.h events.h \
+  costs.h
+
+global.h:
+
+../include/pub_tool_basics.h:
+
+../VEX/pub/libvex_basictypes.h:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/3.4.6/include/stdarg.h:
+
+../include/pub_tool_vki.h:
+
+../include/vki/vki-linux.h:
+
+../include/vki/vki-posixtypes-x86-linux.h:
+
+../include/vki/vki-x86-linux.h:
+
+../include/pub_tool_debuginfo.h:
+
+../include/pub_tool_libcbase.h:
+
+../include/pub_tool_libcassert.h:
+
+../include/pub_tool_libcfile.h:
+
+../include/pub_tool_libcprint.h:
+
+../include/pub_tool_libcproc.h:
+
+../include/pub_tool_machine.h:
+
+../include/pub_tool_mallocfree.h:
+
+../include/pub_tool_options.h:
+
+../VEX/pub/libvex.h:
+
+../VEX/pub/libvex_basictypes.h:
+
+../VEX/pub/libvex_ir.h:
+
+../include/pub_tool_tooliface.h:
+
+../include/pub_tool_errormgr.h:
+
+../include/pub_tool_execontext.h:
+
+../include/pub_tool_xarray.h:
+
+../include/pub_tool_clientstate.h:
+
+events.h:
+
+costs.h:
