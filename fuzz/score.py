@@ -12,7 +12,7 @@ import subprocess
 import sys
 
 
-FUZZGRIND = './valgrind-3.4.1/build/bin/valgrind'
+FUZZGRIND = './valgrind-r12356/build/bin/valgrind'
 
 
 def random_score():

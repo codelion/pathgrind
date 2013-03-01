@@ -161,7 +161,7 @@ def compute_path_constraint(input_file):
     pc = []
     fp = open(output_filename, 'r')
     for line in fp:
-        m = re.match('\[\+\] 0x[0-9]+.* depending of input: if \((.*)\) => (\d)', line)
+        m = re.match('\[\+\] 0x[0-9]+.* depending on input: if \((.*)\) => (\d)', line)
         if m:
             constraint = m.group(1)
             taken = bool(int(m.group(2)))

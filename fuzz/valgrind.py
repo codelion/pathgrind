@@ -22,9 +22,8 @@ from ir_type import *
 from x86g_calculate_condition import x86g_calculate_condition
 
 
+FUZZGRIND = './valgrind-r12356/build/bin/valgrind'
 
-FUZZGRIND = './valgrind-3.4.1/build/bin/valgrind'
-#FUZZGRIND = './valgrind-3.7.0/build/bin/valgrind'
 
 class Node:
     def __init__(self, op, arg, parent=None):
@@ -345,7 +344,7 @@ def run_valgrind(progname, progarg, input_file, taint_stdin=False, max_constrain
             for f, event in l:
                 if event & (select.POLLIN):
                     data = p.stdout.readlines()
-                    nb_constraint += len(filter(lambda x: 'depending of input' in x, data))
+                    nb_constraint += len(filter(lambda x: 'depending on input' in x, data))
                     timeout = False
         if not p.poll():
             try:

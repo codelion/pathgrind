@@ -1,3 +1,7 @@
+testcase/input
+stp
+session
+
 *.py[cod]
 
 # C extensions
