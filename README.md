@@ -10,6 +10,7 @@ Requirements
 - make
 - gcc
 - python
+- gawk
 
 Installation
 ------------
