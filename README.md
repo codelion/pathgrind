@@ -2,6 +2,7 @@ pathgrind
 =========
 
 Path based Dynamic Analysis
+(Works for 32-bit programs only)
 
 Requirements
 ------------
