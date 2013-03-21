@@ -11,6 +11,8 @@ Requirements
 - gcc
 - python
 - gawk
+- 32 bit libraries for ubuntu (sudo apt-get install ia32-libs)
+- 32 bit c library for building c programs for testing with pathgrind (sudo apt-get install libc6-dev-i386)
 
 Installation
 ------------
