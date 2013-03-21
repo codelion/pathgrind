@@ -1,3 +1,0 @@
-libcoregrind_x86_linux_a-sigframe-ppc32-linux.o \
-  libcoregrind_x86_linux_a-sigframe-ppc32-linux.o:  \
- m_sigframe/sigframe-ppc32-linux.c

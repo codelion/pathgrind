@@ -1,3 +1,0 @@
-libcoregrind_x86_linux_a-dispatch-amd64-linux.o \
-  libcoregrind_x86_linux_a-dispatch-amd64-linux.o:  \
- m_dispatch/dispatch-amd64-linux.S

@@ -1,3 +1,0 @@
-libcoregrind_x86_linux_a-syscall-ppc64-linux.o \
-  libcoregrind_x86_linux_a-syscall-ppc64-linux.o:  \
- m_syswrap/syscall-ppc64-linux.S

@@ -1,3 +1,0 @@
-libcoregrind_x86_linux_a-syscall-amd64-linux.o \
-  libcoregrind_x86_linux_a-syscall-amd64-linux.o:  \
- m_syswrap/syscall-amd64-linux.S

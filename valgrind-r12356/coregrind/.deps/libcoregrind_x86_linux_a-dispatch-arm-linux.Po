@@ -1,3 +1,0 @@
-libcoregrind_x86_linux_a-dispatch-arm-linux.o \
-  libcoregrind_x86_linux_a-dispatch-arm-linux.o:  \
- m_dispatch/dispatch-arm-linux.S

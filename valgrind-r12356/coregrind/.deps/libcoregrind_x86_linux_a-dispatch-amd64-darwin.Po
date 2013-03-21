@@ -1,3 +1,0 @@
-libcoregrind_x86_linux_a-dispatch-amd64-darwin.o \
-  libcoregrind_x86_linux_a-dispatch-amd64-darwin.o:  \
- m_dispatch/dispatch-amd64-darwin.S

@@ -1,2 +1,0 @@
-cachegrind_x86_linux-cg-s390x.o cachegrind_x86_linux-cg-s390x.o:  \
- cg-s390x.c

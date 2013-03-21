@@ -1,2 +1,0 @@
-libcoregrind_x86_linux_a-readmacho.o libcoregrind_x86_linux_a-readmacho.o:  \
- m_debuginfo/readmacho.c

@@ -1,2 +1,0 @@
-cachegrind_x86_linux-cg-ppc32.o cachegrind_x86_linux-cg-ppc32.o:  \
- cg-ppc32.c
