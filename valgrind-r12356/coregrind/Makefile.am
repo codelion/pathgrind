@@ -513,7 +513,7 @@ GDBSERVER_XML_FILES = \
 	m_gdbserver/powerpc-altivec64l.xml
 
 # so as to make sure these get copied into the install tree
-pkglib_DATA  = $(GDBSERVER_XML_FILES)
+pkgdata_DATA  = $(GDBSERVER_XML_FILES)
 
 # so as to make sure these get copied into the tarball
 EXTRA_DIST  += $(GDBSERVER_XML_FILES)
@@ -524,7 +524,7 @@ EXTRA_DIST  += $(GDBSERVER_XML_FILES)
 
 all-local: inplace-noinst_PROGRAMS inplace-noinst_DSYMS
 	mkdir -p $(inplacedir); \
-	for f in $(pkglib_DATA); do \
+	for f in $(pkgdata_DATA); do \
 	  rm -f $(inplacedir)/$$f; \
 	  ln -f -s ../$(subdir)/$$f $(inplacedir); \
 	done
