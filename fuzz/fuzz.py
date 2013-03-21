@@ -350,10 +350,10 @@ def expand_execution(input, callbacks):
                 printable_bytes = re.sub('[^\w;\.!\*&~"#\'\{\}\(\)\[\]]', '.', bytes[:10])
                 #print '    * new_input (%d%s): %s time_taken : %s' % (ninput, PARAM['EXTENSION'], printable_bytes, elapsed)
 		print '    * new_input (%d%s): %s' % (ninput, PARAM['EXTENSION'], printable_bytes)
-                fname = 'time_results_%s' % PARAM['INPUT_FILE'].split('/')[-1]
-                f = open(fname, 'a')
-                f.write('%s,%s\n' % (printable_bytes,elapsed))
-	        f.close()
+                #fname = 'time_results_%s' % PARAM['INPUT_FILE'].split('/')[-1]
+                #f = open(fname, 'a')
+                #f.write('%s,%s\n' % (printable_bytes,elapsed))
+	        #f.close()
             else:
                 callback_constraint_solved(new_input)
         else:
