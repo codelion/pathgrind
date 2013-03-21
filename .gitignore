@@ -1,5 +1,4 @@
-testcase/input
-testcase/crash
+valgrind-r12356/
 stp
 session
 fault_detection/notify_crash

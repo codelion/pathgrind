@@ -53,7 +53,7 @@ if [ ! -e ./fuzzgrind/Makefile ]; then
     echo '[fuzzgrind] Configuring valgrind'
     mkdir -p build/
     ./autogen.sh
-    ./configure --prefix=`pwd`/build/ --enable-only32bit
+    ./configure CFLAGS=-fno-stack-protector --prefix=`pwd`/build/ --enable-only32bit
 fi
 
 if [ ! -e ./fuzzgrind/fuzzgrind-x86-linux ]; then
