@@ -376,6 +376,8 @@ def search(target, worklist, callbacks):
     global start
     global pathssub
     global totalcon
+    global cva_constraints
+    global cva_paths
 
     callback_start_scoring = callbacks[6]
     callback_scored = callbacks[7]

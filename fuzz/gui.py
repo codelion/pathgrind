@@ -578,8 +578,17 @@ class MyThread(threading.Thread):
         fuzz.VERIF_SOLVABLE         = False
         fuzz.CONSTRAINT_SUBSUMPTION = False
         fuzz.PARAM = config.get_config(CONFIG_FILE, self.target)
+	fuzz.USE_ACCUM = False
     def run(self):
         fuzz.ninput = fuzz.PARAM.get('N', 0)
+	fuzz.cva_constraints = {}
+	fuzz.cva_paths = {}
+	fuzz.querytime = 0
+	fuzz.elapsed = 0
+	fuzz.paths = 0
+	fuzz.pathssub = 0 
+	fuzz.start = time.time()
+	fuzz.totalcon = 0
         input_seed = fuzz.Input(0, fuzz.PARAM['INPUT_FILE'], fuzz.PARAM['MIN_BOUND'])
         self.worklist = [ input_seed ]
 
