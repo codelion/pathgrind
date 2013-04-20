@@ -36,3 +36,10 @@ $ ./fuzz/fuzz.py test6
 New input are created in testcase/input/
 
 Crash files are be saved in testcase/crash/
+
+Publications
+------------
+[An Empirical Study of Path Feasibility Queries] (http://arxiv.org/abs/1302.4798), CoRR 2013
+
+A Critical Review of Dynamic Taint Analysis and Forward Symbolic Execution, Technical Report NUS 2012 [Details]
+(http://www.comp.nus.edu.sg/~asankhs/research.html)
