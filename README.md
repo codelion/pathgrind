@@ -1,5 +1,6 @@
 pathgrind
 =========
+[![alt text](https://zenodo.org/badge/3777/codelion/pathgrind.png "doi")](http://dx.doi.org/10.5281/zenodo.9829)
 
 Path based Dynamic Analysis
 (Works for 32-bit programs only)
