@@ -567,12 +567,12 @@ if __name__ == '__main__':
 
     output_server("Execution Visualization")
     graphplot = figure()
-    graphplot.line(x,y,color='blue',name='path')
-    graphplot.line(x,z,color='green',name='query')
+    graphplot.line(x,y,color='blue',name='path', legend='Path')
+    graphplot.line(x,z,color='green',name='query', legend='Query')
 	
     graphplot.title = "Symbolic Execution Visualization"
-    graphplot.xaxis.axis_label = 'Path/Query'
-    graphplot.yaxis.axis_label = 'Time Taken'	
+    graphplot.xaxis.axis_label = 'Number'
+    graphplot.yaxis.axis_label = 'Time (Seconds)'	
     show(graphplot)
     renderer1 = graphplot.select(dict(name="path"))
     renderer2 = graphplot.select(dict(name="query"))
