@@ -14,6 +14,8 @@ import shutil
 import subprocess
 import sys
 import time
+#import difflib
+import Levenshtein
 
 from config import *
 from valgrind import *
@@ -21,6 +23,8 @@ from stp import *
 from score import *
 from fault_checker import *
 from bokeh.plotting import *
+import bokeh.charts
+
 
 
 import session
@@ -204,6 +208,7 @@ def expand_execution(input, callbacks):
     global ds
     global z
     global qds
+    global pcstrings
 
     callback_start_constraint_solver = callbacks[0]
     callback_constraint_solved = callbacks[1]
@@ -242,6 +247,13 @@ def expand_execution(input, callbacks):
 	#print 'y: %s' % round(dur,2)
 	cursession().store_objects(ds)
     	querytime = querytime + dur
+
+    s = []	
+    for (f,_) in pc:
+    	s.append(f)
+
+    pcstrings.append(s)
+    #print 'New PC : %s' %pc
 
     if callback_expanded:
         callback_expanded()
@@ -405,6 +417,7 @@ def search(target, worklist, callbacks):
     global graphplot
     global x
     global y
+    global pcstrings
 
     callback_start_scoring = callbacks[6]
     callback_scored = callbacks[7]
@@ -489,14 +502,39 @@ def search(target, worklist, callbacks):
     print 'Paths Explored: %s Feasible Paths: %s Total Constraints: %s Actual Constraints: %s Time Taken: %s Valgrind Time: %s'\
           % (paths,ninput - current,totalcon,pathssub,round(elapsed,2),round(querytime,2))
 
-    #output_server("Execution Visualization")
-    #graphplot = figure()
-    #graphplot.line(x,y,color='red',name='symex')
+    sx = []	
+    radii = []
+    sy = []
+    i = 0;
+    j = 0;
+ 
+    for s1 in pcstrings :
+	j = 0;
+	for s2 in pcstrings :
+                sx.append(i)
+	 	sy.append(j)
+		#print 's1 : %s' %s1
+		#print 's2 : %s' %s2
+		#sim = difflib.SequenceMatcher(a=s1.lower(),b=s2.lower()).ratio()
+		sim = Levenshtein.seqratio(s1,s2)
+		radii.append(sim/5)
+		#print 'sx : %d' %i
+		#print 'sy : %d' %j
+		#print 'sim : %s' %round(sim,2)
+		j += 1
+	i += 1
+
+    	
+    output_server("Similarity Visualization")
+    TOOLS="resize,crosshair,pan,wheel_zoom,box_zoom,reset,tap,previewsave,box_select,poly_select,lasso_select"
+    p = figure(tools=TOOLS)
+    
+    p.scatter(sx,sy,radius=radii,color='red',fill_alpha=0.6,name='pathsscatter')
 	
-    #graphplot.title = "Symbolic Execution Visualization"
-    #graphplot.xaxis.axis_label = 'Constraint Number'
-    #graphplot.yaxis.axis_label = 'Time Taken'	
-    #show(graphplot)
+    p.title = "Path Similarity : "+target
+    p.xaxis.axis_label = 'Number'
+    p.yaxis.axis_label = 'Number'	
+    show(p)
 
 def usage():
     print 'Usage: %s <parameter name>' % sys.argv[0]
@@ -564,13 +602,14 @@ if __name__ == '__main__':
     y = []
     z = []
     num = 0 
+    pcstrings = []
 
     output_server("Execution Visualization")
     graphplot = figure()
     graphplot.line(x,y,color='blue',name='path', legend='Path')
     graphplot.line(x,z,color='green',name='query', legend='Query')
 	
-    graphplot.title = "Symbolic Execution Visualization"
+    graphplot.title = "Symbolic Execution Visualization: "+target
     graphplot.xaxis.axis_label = 'Number'
     graphplot.yaxis.axis_label = 'Time (Seconds)'	
     show(graphplot)
