@@ -249,10 +249,16 @@ def expand_execution(input, callbacks):
     	querytime = querytime + dur
 
     s = []	
-    for (f,_) in pc:
+    for (f,t) in pc:
+	f = f+str(t)
     	s.append(f)
 
-    pcstrings.append(s)
+    if CONSTRAINT_SUBSUMPTION:
+	if s in pcstrings:
+		pc = []
+	else: pcstrings.append(s)
+    else: pcstrings.append(s)
+
     #print 'New PC : %s' %pc
 
     if callback_expanded:
@@ -517,7 +523,7 @@ def search(target, worklist, callbacks):
 		#print 's2 : %s' %s2
 		#sim = difflib.SequenceMatcher(a=s1.lower(),b=s2.lower()).ratio()
 		sim = Levenshtein.seqratio(s1,s2)
-		radii.append(sim/5)
+		radii.append(0.05+(sim/5))
 		#print 'sx : %d' %i
 		#print 'sy : %d' %j
 		#print 'sim : %s' %round(sim,2)

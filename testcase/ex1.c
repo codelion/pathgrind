@@ -38,7 +38,7 @@ int main(int argc, char *argv[]) {
     char *sp = strchr(buffer,' ');
     char *r;
     int j;
-
+    
     if(sp == NULL) {
        char *tmp = strchr(buffer,'/');
        j = tmp-buffer;
