@@ -1,4 +1,4 @@
-pathgrind[ ![Codeship Status for codelion/pathgrind](https://codeship.com/projects/0b086ae0-9472-0132-1417-26aef3146a55/status?branch=master)](https://codeship.com/projects/62554)
+pathgrind
 =========
 [![alt text](https://zenodo.org/badge/3777/codelion/pathgrind.png "doi")](http://dx.doi.org/10.5281/zenodo.9829)
 
