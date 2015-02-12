@@ -1,4 +1,4 @@
-pathgrind[![Build Status](https://travis-ci.org/codelion/pathgrind.svg?branch=master)](https://travis-ci.org/codelion/pathgrind)
+pathgrind [![Build Status](https://travis-ci.org/codelion/pathgrind.svg?branch=master)](https://travis-ci.org/codelion/pathgrind)
 =========
 [![alt text](https://zenodo.org/badge/3777/codelion/pathgrind.png "doi")](http://dx.doi.org/10.5281/zenodo.9829)
 
