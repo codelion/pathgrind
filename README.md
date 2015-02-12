@@ -42,7 +42,7 @@ Crash files are be saved in testcase/crash/
 
 Publications
 ------------
-[Exploiting Undefined Behaviors for Efficient Symbolic Execution] (http://asankhaya.github.io/pdf/Exploiting_Undefined_Behaviors_for_Efficient_Symbolic_Execution.pdf), ICSE 2014
+[Exploiting Undefined Behaviors for Efficient Symbolic Execution](http://dl.acm.org/citation.cfm?doid=2591062.2594450), ICSE 2014
 
 [An Empirical Study of Path Feasibility Queries] (http://arxiv.org/abs/1302.4798), CoRR 2013
 
