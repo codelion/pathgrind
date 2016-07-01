@@ -40,7 +40,7 @@ New input are created in testcase/input/
 
 Crash files are be saved in testcase/crash/
 
-You can also read a fairly detailed tutorial on Pathgrind at the [SRC:CLR blog](https://blog.sourceclear.com/dynamic-symbolic-execution-with-pathgrind/)
+You can also read a fairly detailed tutorial on Pathgrind at the [SRC:CLR blog](https://blog.srcclr.com/dynamic-symbolic-execution-with-pathgrind/)
 
 Publications
 ------------
