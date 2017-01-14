@@ -1,20 +1,68 @@
+CC=gcc
+CFLAGS=-Wall -g -O2 -m32
+OBJ=test test2 test3 test4 test5 test6 test7 test8 test9 test10 test11 test12 test13 test14 test15 md5 example ms08_067 strcmp
 
-build:
-	gcc -I. $(COMPILE_PARAMETERS) -o make.exe make.c libglob.a -L/usr/local/lib -lkvm -lelf
+all: $(OBJ)
 
-build-st:
-	cfe make.c
-	il-st-2 make.c
-	mv -f make.int.c make.st.int.c
-	gcc -I. -I$(ARISTOTLE_DIR)/headers/ $(COMPILE_PARAMETERS) \
-	-o make.st.int.exe make.st.int.c libglob.a -L/usr/local/lib \
-	-L$(ARISTOTLE_DIR)/lib/sunos5/ -lkvm -lelf -lIPF_st -lglobalfunc -lm
+test: test.c
+	$(CC) $(CFLAGS) -o $@ $^
 
-build-bt:
-	cfe make.c
-	il-bt-2 make.c
-	mv -f make.int.c make.bt.int.c
-	gcc -I. -I$(ARISTOTLE_DIR)/headers/ $(COMPILE_PARAMETERS) \
-	-o make.bt.int.exe make.bt.int.c libglob.a -L/usr/local/lib \
-	-L$(ARISTOTLE_DIR)/lib/sunos5/ -lkvm -lelf -lIPF_bt -lglobalfunc -lm
+test2: test2.c
+	$(CC) $(CFLAGS) -o $@ $^
 
+test3: test3.c
+	$(CC) $(CFLAGS) -o $@ $^
+	
+test4: test4.c
+	$(CC) $(CFLAGS) -o $@ $^
+	
+test5: test5.c
+	$(CC) $(CFLAGS) -o $@ $^
+	
+test6: test6.c
+	$(CC) $(CFLAGS) -o $@ $^
+	
+test7: test7.c
+	$(CC) $(CFLAGS) -o $@ $^
+	
+test8: test8.c
+	$(CC) $(CFLAGS) -o $@ $^
+	
+test9: test9.c
+	$(CC) $(CFLAGS) -o $@ $^
+	
+test10: test10.c
+	$(CC) $(CFLAGS) -o $@ $^
+	
+test11: test11.c
+	$(CC) $(CFLAGS) -o $@ $^
+	
+test12: test12.c
+	$(CC) $(CFLAGS) -o $@ $^
+	
+test13: test13.c
+	$(CC) $(CFLAGS) -o $@ $^
+	
+test14: test14.c
+	$(CC) $(CFLAGS) -o $@ $^
+	
+test15: test15.c
+	$(CC) $(CFLAGS) -o $@ $^
+	
+md5: md5.c
+	$(CC) $(CFLAGS) -o $@ $^
+
+ms08_067: ms08_067.c
+	$(CC) $(CFLAGS) -o $@ $^
+
+urlencode: urlencode.c
+	$(CC) $(CFLAGS) -o $@ $^
+	
+example: example.c
+	$(CC) -O0 -o $@ $^
+
+strcmp: strcmp.c
+	$(CC) -O0 $(CFLAGS) -o $@ $^
+
+clean:
+	rm -f *~ $(OBJ)
