@@ -1,6 +1,6 @@
 pathgrind [![Build Status](https://travis-ci.org/codelion/pathgrind.svg?branch=master)](https://travis-ci.org/codelion/pathgrind)
 =========
-[![alt text](https://zenodo.org/badge/3777/codelion/pathgrind.png "doi")](http://dx.doi.org/10.5281/zenodo.9829)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.9829.svg)](https://doi.org/10.5281/zenodo.9829)
 
 Path based Dynamic Analysis
 (Works for 32-bit programs only)
